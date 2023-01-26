@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --bg-color: #1747a5;
+    --primary-color:  #b6ceff;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+
+h1{
+    font-size: 4em;
+}
+
+h2{
+    font-size: 3em;
+}
+
+h3{
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+
+.mensagem{
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box{
+    border: 2px solid var(--primary-color);
+    padding: 1px;
+    display: inline-block;
+    font-size: 2em;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.btn-jogar{
+    padding: 8px 15px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 5px;
+}
